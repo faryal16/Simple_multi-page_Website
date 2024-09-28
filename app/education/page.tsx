@@ -1,3 +1,5 @@
+"use client"
+
 import Link from "next/link";
 
 export default function experiences() {
@@ -6,19 +8,19 @@ export default function experiences() {
         <label className="tag"> Education</label>
       <div className="boxes">
        <div className="box" >
-        <label className="tag">Master's</label>
+        <label className="tag">Master&#39;s</label>
         <section>Dgree: <span>M.A</span></section>
         <section>Subject: <span>Islamic Studies</span></section>
         <section>Passing year: <span>2018</span></section>
        </div>
        <div className="box" >
-        <label className="tag">Bachelor's</label>
+        <label className="tag">Bachelor&#39;s</label>
         <section>Dgree: <span>B.COM</span></section>
         <section>Subject: <span>Commerce</span></section>
         <section>Passing year: <span>2016</span></section>
        </div>
        <div className="box">
-        <label className="tag">Bachelor's</label>
+        <label className="tag">Bachelor&#39;s</label>
         <section>Dgree: <span>B.A</span></section>
         <section>Subject: <span>English advance</span></section>
         <section>Passing year: <span>2014</span></section>
