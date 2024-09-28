@@ -3,8 +3,8 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #d98a8a;
+  --foreground: #790505;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -17,11 +17,90 @@
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family:'Times New Roman', Times, serif;
+  font-size: 20px;
+  display: block;
+  margin: auto;
+  margin-top: 23px;
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
+}
+.contanier{
+  /* border: 12px solid black; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 55px;
+  margin-left: 75px;
+  margin-bottom: 55px;
+}
+
+span{
+  font-size: bold;
+  color:rgb(146, 44, 73)
+}
+label.tag{
+  text-decoration: underline;
+  font-size: 30px;
+color:black;
+margin-bottom: 43px;
+display: block;
+text-align: center;
+}
+
+.links li{
+  /* border: 2px solid black; */
+  text-align: center;
+  font-size: 24px;
+  text-decoration: underline;
+
+}
+
+/* skills */
+.boxes{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.btn{
+  border: 2px solid rgb(86, 4, 4);
+  border-radius: 18px;
+  text-align: center;
+  padding: 8px;
+  font-size: 15px;
+  display: block;
+  margin :auto;
+  margin-top: 50px;
+  
+}
+.btn:hover{
+  background: #f04040;
+  color :antiquewhite
+}
+
+/* experiences */
+
+.box{
+  
+  border: 2px solid rgb(91, 12, 12);
+  padding: 33px;
+  margin: 12px;
+  border-radius: 8px;
+  background: rgb(229, 166, 169);
+  transition: .5s ease;
+}
+.box .tag{
+  color: #91057c;
+  font-size: bolder;
+}
+.box:hover{
+  transform: scale(1.02);
+  cursor: pointer;
+
+
 }
