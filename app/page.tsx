@@ -17,7 +17,7 @@ export default function Home() {
         <section>github: <Link href="https://github.com/faryal16"><span>faryal16</span></Link></section>
         </div>
 
-        <div style={{ display: 'flex', flexDirection: 'column' }}>
+        <div  style={{ display: 'flex', flexDirection: 'column' }}>
 
         <Image src= {dp}  width={200} height={200}  alt="my Profile Picture" />
         
